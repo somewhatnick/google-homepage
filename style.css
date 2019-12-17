@@ -23,6 +23,12 @@ li a {
 
 .right {
     float: right;
+    opacity: 0.90;
+    padding: 0 10px 0 0;
+}
+
+li:not(.right) {
+    opacity: 0.75;
 }
   
 li a:hover {

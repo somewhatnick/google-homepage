@@ -22,7 +22,20 @@ li a {
 }
 
 #google-apps-icon {
-    padding: 11px 1.5px 15px 17px;
+    padding-top: 11px;
+}
+
+#sign-in-button {
+    background-color: rgb(63, 110, 238);
+    border-radius: 2px;
+    color: #fff;
+    padding: 8px 16px;
+    margin-top: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    cursor: default;
 }
 
 .right {

@@ -21,6 +21,10 @@ li a {
     text-decoration: none;
 }
 
+#google-apps-icon {
+    padding: 11px 1.5px 15px 17px;
+}
+
 .right {
     float: right;
     opacity: 0.90;

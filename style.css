@@ -12,17 +12,43 @@ li {
     font-family: arial;
     font-size: 13px;
 }
-  
+
 li a {
     display: block;
     color: #000;
     text-align: center;
-    padding: 15px 1.5px 15px 17px;
     text-decoration: none;
+    padding: 15px 1.5px 15px 17px;
+}
+
+/* This controls the left side of the navbar */
+.left li a, #google-apps-icon {
+    opacity: 0.75;
+}
+
+/* This controls the right side of the navbar */
+.right {
+    float: right;
+    
+}
+
+.right li a {
+    opacity: 0.85;
+    padding-top: 16px;
+}
+
+  
+li a:hover {
+    background-color: none;
+    text-decoration: underline;
+}
+
+#images-item a {
+    padding-left: 13.5px;
 }
 
 #google-apps-icon {
-    padding-top: 11px;
+    padding-top: 12px;
 }
 
 #sign-in-button {
@@ -30,29 +56,14 @@ li a {
     border-radius: 2px;
     color: #fff;
     padding: 8px 14px;
-    margin-top: 6px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 13px;
     cursor: default;
+    margin: 8px 22px 8px 15px;
 }
 
 #sign-in-button:hover {
     box-shadow: 0 1.5px 2px -2px rgb(84, 123, 231);
-}
-
-.right {
-    float: right;
-    opacity: 0.90;
-    padding: 0 10px 0 0;
-}
-
-li:not(.right) {
-    opacity: 0.75;
-}
-  
-li a:hover {
-    background-color: none;
-    text-decoration: underline;
 }
